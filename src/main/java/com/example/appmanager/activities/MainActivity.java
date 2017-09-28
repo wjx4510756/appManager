@@ -149,7 +149,6 @@ public class MainActivity extends AppCompatActivity {
 
                         } catch (OutOfMemoryError e) {
                             //OutOfMemoryError
-
                             AppBean appBean = new AppBean();
                             appBean.setAppPackage(packageInfo.packageName);
                             appBean.setAppVersion("" + packageInfo.versionCode);
